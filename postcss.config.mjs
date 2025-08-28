@@ -1,7 +1,7 @@
 /** @type {import('postcss-load-config').Config} */
 const config = {
   plugins: {
-    autoprefixer: {}, // uniquement autoprefixer, pas "tailwindcss"
+     "@tailwindcss/postcss": {},
   },
 };
 
